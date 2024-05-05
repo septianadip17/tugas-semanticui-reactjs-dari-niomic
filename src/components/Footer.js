@@ -14,31 +14,31 @@ const Footer = () => {
       <Divider horizontal>Ayo Berkelana!</Divider>
       <Container textAlign="center">
         <ButtonGroup>
-          <Button>
-            <Link to="/">Home</Link>
+          <Button as={Link} to="/">
+            Home
           </Button>
           <ButtonOr />
-          <Button>
-            <Link to="/tugas10">Tugas 10</Link>
+          <Button as={Link} to="/tugas10">
+            Tugas 10
           </Button>
-          <Button>
-            <Link to="/tugas11">Tugas 11</Link>
-          </Button>
-          <ButtonOr />
-          <Button>
-            <Link to="/tugas12">Tugas 12</Link>
+          <Button as={Link} to="/tugas11">
+            Tugas 11
           </Button>
           <ButtonOr />
-          <Button>
-            <Link to="/tugas13">Tugas 13</Link>
+          <Button as={Link} to="/tugas12">
+            Tugas 12
           </Button>
           <ButtonOr />
-          <Button>
-            <Link to="/tugas14">Tugas 14</Link>
+          <Button as={Link} to="/tugas13">
+            Tugas 13
           </Button>
           <ButtonOr />
-          <Button>
-            <Link to="/tugas15">Tugas 15</Link>
+          <Button as={Link} to="/tugas14">
+            Tugas 14
+          </Button>
+          <ButtonOr />
+          <Button as={Link} to="/tugas15">
+            Tugas 15
           </Button>
         </ButtonGroup>
       </Container>

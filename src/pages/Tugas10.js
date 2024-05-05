@@ -61,7 +61,7 @@ const Tugas10 = () => {
           repellat quasi totam illum enim, commodi quod laudantium deserunt
           distinctio? Unde.
         </p>
-        <Button color="teal">
+        <Button color="teal" icon labelPosition="left">
           <Icon name="plus" />
           Tambah Tautan Ke List
         </Button>
