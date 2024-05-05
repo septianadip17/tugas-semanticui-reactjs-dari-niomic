@@ -42,7 +42,6 @@ const Tugas12 = () => {
                   placeholder="Password"
                   type="password"
                 />
-
                 <Form.Field>
                   <Checkbox label="I agree to the Terms and Conditions" />
                 </Form.Field>

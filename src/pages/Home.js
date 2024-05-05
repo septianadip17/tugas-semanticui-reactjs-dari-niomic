@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer';
-import {Container } from "semantic-ui-react";
+import {Container, } from "semantic-ui-react";
 
 const Home = () => {
   return (
     <div>
-      <Container textAlign='center'>
+      <Container textAlign='center' verticalAlign='middle'>
         <h1>Home</h1>
       </Container>
       <Footer/>
