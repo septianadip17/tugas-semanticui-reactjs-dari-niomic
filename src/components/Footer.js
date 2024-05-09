@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import {
   Button,
   Container,
-  ButtonOr,
   ButtonGroup,
+  ButtonOr,
   Divider,
 } from "semantic-ui-react";
 

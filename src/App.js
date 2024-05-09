@@ -7,6 +7,7 @@ import Tugas13 from "./pages/Tugas13";
 import Tugas14 from "./pages/Tugas14";
 import Tugas15 from "./pages/Tugas15";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
 function MainApp() {
   return (
@@ -18,6 +19,7 @@ function MainApp() {
       <Route path="tugas13" element={<Tugas13 />} />
       <Route path="tugas14" element={<Tugas14 />} />
       <Route path="tugas15" element={<Tugas15 />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
